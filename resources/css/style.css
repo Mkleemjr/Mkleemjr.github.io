@@ -5,3 +5,9 @@ html {
 body {
   background-color: #FFCA28;
 }
+
+.lil-beans {
+  background-color: #FFEB3B;
+  text-weight: bold;
+  color: red;
+}
