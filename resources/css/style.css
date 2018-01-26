@@ -1,4 +1,12 @@
 body {
   font-family: Helvetica;
-  background-color: #FFCA28;
+  background-color: #FFCA28
+}
+
+h1 {
+  background-color: red;
+}
+
+h2 {
+  background-color: #FFEE58;
 }
