@@ -1,25 +1,50 @@
 body {
-  font-family: Helvetica;
+  font-family: Georgia;
   background-color: #FFCA28;
 }
 
 h1 {
   background-color: red;
-  font-size: 36px;
+  font-size: 38px;
+  text-shadow: #FFFF00 1px 1px 1px;
 
 }
 
 h2 {
   background-color: #FFEE58;
-  font-size: 26px;
+  font-size: 28px;
+  text-shadow: #69F0AE 0.5px 0.5px 0.5px;
 }
 
 h3 {
   background-color: #C6FF00;
+  text-shadow: #FF5722 1px 1px 1px;
+  font-size: 22px;
 }
 
 p {
-  font-family: Roboto;
+  font-family: Verdana;
   font-size: 22px;
   font-style: normal;
+}
+
+a {
+  color: red;
+  font-size: 23px;
+  font-family: Georgia;
+  text-shadow: #827717 1px 1px 1px;
+}
+
+.folio-list li{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.self-align {
+  text-align: center;
+}
+
+.list-align {
+  text-align: left;
 }
