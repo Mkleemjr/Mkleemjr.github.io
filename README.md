@@ -2,4 +2,4 @@
 
 # Michael Kleemoff, Jr.
 
-My official website.
+My main repository for my official website on GitHub Pages.
