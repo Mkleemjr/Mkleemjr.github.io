@@ -23,6 +23,12 @@ h3 {
   font-size: 22px;
 }
 
+h4 {
+  background-color: #C6FF00;
+  text-shadow: #FF5722 1px 1px 1px;
+  font-size: 18px;
+}
+
 p {
   font-family: Verdana;
   font-size: 22px;
@@ -36,8 +42,12 @@ a {
   text-shadow: #827717 1px 1px 1px;
 }
 
-.folio-list li{
+.folio-list li {
   color: black;
   font-weight: bold;
   font-size: 20px;
+}
+
+.codist img {
+  width: 100%;
 }
