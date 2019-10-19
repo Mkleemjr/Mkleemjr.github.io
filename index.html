@@ -15,13 +15,13 @@
       var d = new Date();
       
       function printDayTime() {
-        var hours = d.getHours();
-        var mins = d.getMinutes();
-        var secs = d.getSeconds();
-         var day = d.getDay();
+        var day = d.getDay();
         var month = d.getMonth();
         var day_of_month = d.getDate();
         var year = d.getFullYear();
+        var hours = d.getHours();
+        var mins = d.getMinutes();
+        var secs = d.getSeconds();
         document.body.innerHTML = "<h4>Today is: " + d + "</h4>";
             
       }
