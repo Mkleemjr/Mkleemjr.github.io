@@ -14,7 +14,7 @@
     <script>
       var d = new Date();
       
-      function todaysDate() {
+      function today() {
         var day = date.getDay();
         var month = date.getMonth();
         var day_of_month = date.getDate();
@@ -29,7 +29,7 @@
         var secs = d.getSeconds();
         document.body.innerHTML = "<h4>The current time is: " + hours + ":" + mins + ":" + secs + "</h4>";    
       }
-      todaysDate();
+      today();
       setInterval(printTime, 1000);
     </script>
 
