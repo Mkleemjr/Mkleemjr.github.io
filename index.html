@@ -14,22 +14,18 @@
     <script>
       var d = new Date();
       
-      function today() {
-        var day = d.getDay();
+      function printDayTime() {
+        var hours = d.getHours();
+        var mins = d.getMinutes();
+        var secs = d.getSeconds();
+         var day = d.getDay();
         var month = d.getMonth();
         var day_of_month = d.getDate();
         var year = d.getFullYear();
         document.body.innerHTML = "<h4>Today is: " + d + "</h4>";
-      }
-      today();
-      
-      function printTime() {
-        var hours = d.getHours();
-        var mins = d.getMinutes();
-        var secs = d.getSeconds();
         document.body.innerHTML = "<h4>The current time is: " + hours + ":" + mins + ":" + secs + "</h4>";    
       }
-      setInterval(printTime, 1000);
+      setInterval(printDayTime, 1000);
     </script>
 
   </head>
