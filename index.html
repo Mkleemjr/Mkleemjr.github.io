@@ -11,22 +11,7 @@
     <link rel="icon" href="resources/images/the-aura-of-self-copy.png">
 
     <title>Michael Kleemoff, Jr.</title>
-    <script>
-      var d = new Date();
-      
-      function printDayTime() {
-        var day = d.getDay();
-        var month = d.getMonth();
-        var day_of_month = d.getDate();
-        var year = d.getFullYear();
-        var hours = d.getHours();
-        var mins = d.getMinutes();
-        var secs = d.getSeconds();
-        document.body.innerHTML = "<h4>Today is: " + d + hours + mins + secs + "</h4>";
-            
-      }
-      setInterval(printDayTime, 1000);
-    </script>
+   
 
   </head>
 
@@ -126,6 +111,22 @@
       <h3>Contact Me:</h3>
 
       <p><strong>E-mail:</strong> mkleemjr@gmail.com</p>
+      
+   <script>
+
+      function printDayTime() {
+        var d = new Date();
+        var day = d.getDay();
+        var month = d.getMonth();
+        var day_of_month = d.getDate();
+        var year = d.getFullYear();
+        var hours = d.getHours();
+        var mins = d.getMinutes();
+        var secs = d.getSeconds();
+        document.body.innerHTML = "<h4>Today is: " + d + hours + mins + secs + "</h4>";      
+      }
+      setInterval(printDayTime, 1000);
+    </script>
 
     </body>
 
