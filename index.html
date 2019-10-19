@@ -21,7 +21,7 @@
         var year = date.getFullYear();
         document.body.innerHTML = "<h4>Today is: " + date + "</h4>";
       }
-      
+      today();
       
       function printTime() {
         var hours = d.getHours();
@@ -29,7 +29,6 @@
         var secs = d.getSeconds();
         document.body.innerHTML = "<h4>The current time is: " + hours + ":" + mins + ":" + secs + "</h4>";    
       }
-      today();
       setInterval(printTime, 1000);
     </script>
 
