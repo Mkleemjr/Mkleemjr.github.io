@@ -17,11 +17,24 @@
   <body>
 
     <script>
-      function printTime() {
-        var date = new Date();
+      var date = new Date();
+      
+      function todaysDate() {
+        var day = date.getDay();
+        var month = date.getMonth();
+        var day_of_month = date.getDate();
+        var year = date.getFullYear();
         document.body.innerHTML = "<h4>Today is: " + date + "</h4>";
       }
-      setInterval(printTime, 1000);
+      todaysDate();
+      
+      /* function printTime() {
+        
+        
+        var 
+        
+      }
+      setInterval(printTime, 1000);*/
     </script>
 
       <h1>Michael Kleemoff, Jr.</h1>
@@ -63,7 +76,7 @@
 
       <h2>About Me:</h2>
 
-      <p>Hi my name is Michael Kleemoff, Jr. I am a 47-year old married man and a father of 3 sons, ages 5, 13 and 15. I reside in
+      <p>Hi my name is Michael Kleemoff, Jr. I am a 49-year old married man and a father of 3 sons, ages 6, 15 and 17. I reside in
          New York City, NY. I am in the process of going through a major career change from a baker
          to a computer scientist.
       </p>
