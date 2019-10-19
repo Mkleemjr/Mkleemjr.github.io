@@ -116,8 +116,10 @@
 
       function printDayTime() {
         var d = new Date();
-        
-        document.body.innerHTML = "<h4>Today is: " + d + "</h4>";      
+        var hours = d.getHours();
+        var mins = d.getMinutes();
+        var secs = d.getSeconds();
+        document.body.innerHTML = "<h4>Today is: " + d + hours + ":" + mins + ":" + secs + "</h4>";      
       }
       setInterval(printDayTime, 1000);
     </script>
