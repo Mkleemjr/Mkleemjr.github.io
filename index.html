@@ -17,8 +17,11 @@
   <body>
 
     <script>
-      var date = new Date();
-      document.body.innerHTML = "<h4>Today is: " + date + "</h4>";
+      function printTime() {
+        var date = new Date();
+        document.body.innerHTML = "<h4>Today is: " + date + "</h4>";
+      }
+      setInterval(printTime, 1000);
     </script>
 
       <h1>Michael Kleemoff, Jr.</h1>
