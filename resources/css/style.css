@@ -17,6 +17,11 @@ h1 {
   padding: 30px;
 }
 
+h5 {
+  text-align: center;
+  color: white;
+}
+
 /* Navbar Section */
 
 .navbar {
@@ -69,6 +74,7 @@ h1 {
   border: 3px groove gold;
   margin: 1.5rem;
   border-radius: 50px;
+  padding: 20px auto;
 }
 
 .btn {
@@ -87,16 +93,12 @@ h1 {
 
 /* Portfolio Section */
 
-/*#portfolio {
-  background-color: lightblue;
-}*/
-
 .col-sm-4 {
   background-color: #26c6da;
 }
 
 .row img {
-  margin: 20px 0;
+  margin: 15% auto;
   border: 2px outset gold;
   border-radius: 5px;
 }
@@ -104,7 +106,6 @@ h1 {
 #portfolio a {
   color: #ffca28;
   text-shadow: 1px 1px 2px lightslategray;
-  /*background-color: gold;*/
   font-size: 1.25em;
   font-weight: 600;
   border-radius: 5px;
