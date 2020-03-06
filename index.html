@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width" name="viewport">
-  <title>Michael Kleemoff: Web Developer</title>
+  <title>Michael Kleemoff: Software Engineer</title>
   <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -20,7 +20,7 @@
 
 <body>
   <!-- Header with navbar -->
-  <header>
+  <header id="top">
     <!-- Navbar with dropdown menu -->
     <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container">
@@ -28,27 +28,16 @@
           <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1"
             data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span
               class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a
-            class="navbar-brand" href="#web-dev">Michael Kleemoff: Software Development Engineer</a>
+            class="navbar-brand" href="#about">About Me</a>
         </div>
 
         <!-- Dropdown Menu -->
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#skills">Skills</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-
-            <!-- <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li> -->
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -60,38 +49,44 @@
     <!-- Jumbotron -->
     <section class="jumbotron" id="web-dev">
       <div class="fluid-container text-center">
-        <h1>Michael Kleemoff: Software Development Engineer</h1>
+        <h1>Michael Kleemoff: Software Engineer</h1>
         <div>
           <img src="resources/images/tech-profile1.jpg" alt="Picture of Michael Kleemoff" />
         </div>
-        <p>Hi, I am a Software Development Engineer based in New York City, NY.</p><br>
-        <!-- <span><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></span> -->
+        <h2 class="text-center sect-title" id="about">About Me</h2>
+        <br />
+        <p>Hi, I am a Software Engineer specializing in Front-End Web Dev looking for an internship and/or entry level position. I am based in New York City, NY. Please check out some of my work in the Porfolio section. I ha ve listed some of my technical skills in the Skills section. If you are interested in finding out more about me or would like to contact me, please go to my Contact section.</p>
+        <br />
       </div>
     </section>
 
-    <!-- Skills section: 2 columns with icons -->
-    <section id="skills">
+    <!-- Technical Skills section: 2 columns with icons -->
+    <section>
       <div class="container">
-        <!-- Skills heading -->
-        <h1 class="text-center sect-title">Technical Skills</h1>
-
-        <!-- 1x2 Bootstrap grid of skills with icons -->
+        <!-- Technical Skills heading -->
+        <h1 class="text-center sect-title"  id="skills">Technical Skills</h1>
+        <h2 class="text-center sect-title" style="font-style: italic;"><a href="#top">( Back to Top )</a></h2>
+        
+        <!-- 1x2 Bootstrap grid of techical skills with icons -->
         <!-- <div class="row"> -->
         <!-- Frontend Column -->
         <div class="col-sm-12 skill text-center">
-          <span aria-hidden="true" class="fa fa-photo fa-5x"></span>
-          <!-- <h3>Frontend</h3> -->
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>XML</p>
-          <p>Bootstrap</p>
-          <p>JavaScript</p>
-          <p>jQuery</p>
-          <p>Ajax</p>
-          <p>Node.js</p>
-          <p>React.js</p>
-          <p>Git and GitHub</p>
-          <p>Linux</p>
+          <!-- <span aria-hidden="true" class="fa fa-photo fa-5x"></span> -->
+          <br />
+          <!-- <h3>Technical Skills</h3> -->
+          <p><img src="resources/images/html-5.png"/></p>
+          <p><img src="resources/images/css.png"/></p>
+          <p><img src="resources/images/xml.png"/></p>
+          <p><img src="resources/images/bootstrap.png"/></p>
+          <p><img src="resources/images/javascript.png"/></p>
+          <p><img src="resources/images/jquery-icon-png-2.jpg"/></p>
+          <p><img src="resources/images/python.png" /></p>
+          <p><img src="resources/images/c.png" /></p>
+          <p><img src="resources/images/ajax.png"/></p>
+          <p><img src="resources/images/nodejs.png"/></p>
+          <p><img src="resources/images/github.png"/></p>
+          <p><img src="resources/images/git.png"/></p>
+          <p><img src="resources/images/linux.png"/></p>
         </div>
         <!-- Backend Column -->
         <!-- <div class="col-sm-6 skill text-center">
@@ -107,39 +102,42 @@
     </section>
 
     <!-- Portfolio: 3x3 Grid with responsive images -->
-    <section id="portfolio">
+    <h1 class="text-center sect-title"  id="portfolio">Portfolio</h1>
+    <h2 class="text-center sect-title" style="font-style: italic;"><a href="#top">( Back to Top )</a></h2>
+
+    <section class="portfolio-links">
       <div class="fluid-container">
-        <h1 class="text-center sect-title">Portfolio</h1>
+        
         <!-- Row 1 -->
         <div class="row">
           <!-- Project 1 -->
           <div class="col-sm-4">
-            <img class="img-responsive" src="resources/images/beach-paradise.png"
-              alt="Image of the Beach Paradise project" />
+            <a href="https://mkleemjr.github.io/beach-paradise/" target="_blank"><img class="img-responsive" src="resources/images/beach-paradise.png" alt="Image of the Beach Paradise project" /></a>
             <h4 class="text-center"><a href="https://mkleemjr.github.io/beach-paradise/" target="_blank">Beach
                 Paradise</a></h4>
             <h5>WEB DEV</h5>
           </div>
           <!-- Project 2 -->
           <div class="col-sm-4">
-            <img class="img-responsive" src="resources/images/dasmotos-arts-crafts.png"
-              alt="Image of the Dasmoto's Arts & Crafts project" />
+            <a href="https://mkleemjr.github.io/das-project/" target="_blank"><img class="img-responsive" src="resources/images/dasmotos-arts-crafts.png"
+              alt="Image of the Dasmoto's Arts & Crafts project" /></a>
             <h4 class="text-center"><a href="https://mkleemjr.github.io/das-project/" target="_blank">Dasmoto's Arts &
                 Crafts</a></h4>
             <h5>WEB DEV</h5>
           </div>
           <!-- Project 3 -->
           <div class="col-sm-4">
-            <img class="img-responsive" src="resources/images/excursion.png" alt="Image of the Excursion project" />
+            <a href="https://mkleemjr.github.io/excursion/" target="_blank"><img class="img-responsive" src="resources/images/excursion.png" alt="Image of the Excursion project" /></a>
             <h4 class="text-center"><a href="https://mkleemjr.github.io/excursion/" target="_blank">Excursion</a></h4>
             <h5>WEB DEV</h5>
           </div>
         </div>
+
         <!-- Row 2 -->
         <div class="row">
           <!-- Project 4 -->
           <div class="col-sm-4">
-            <img class="img-responsive" src="resources/images/broadway.png" alt="Image of the Broadway project" />
+            <a href="https://mkleemjr.github.io/broadway/" target="_blank"><img class="img-responsive" src="resources/images/broadway.png" alt="Image of the Broadway project" /></a>
             <h4 class="text-center"><a href="https://mkleemjr.github.io/broadway/" target="_blank">Broadway</a></h4>
             <h5>WEB DEV</h5>
           </div>
@@ -156,6 +154,7 @@
             <h5>WEB DEV</h5>
           </div>
         </div>
+
         <!-- Row 3 -->
         <div class="row">
           <!-- Project 7 -->
@@ -181,29 +180,63 @@
             <h5>WEB DEV</h5>
           </div>
         </div>
+
+        <!-- Row 4 -->
         <div class="row">
           <!-- Project 10 -->
           <div class="col-sm-4">
             <img class="img-responsive" src="resources/images/lil-beans-bakery-and-cafe.png"
               alt="Image of the Lil Beans Bakery and Cafe website" />
             <h4 class="text-center"><a href="https://mkleemjr.github.io/lil-beans-bakery-and-cafe/" target="_blank">Lil
-                Beans Bakery and Cafe</a></h4>
+                Beans Bakery</a></h4>
             <h5>WEB DEV</h5>
           </div>
           <!-- Project 11 -->
           <div class="col-sm-4">
-            <a href="https://mkleemjr.github.io/counter" target="_blank"><img class="img-responsive" src="resources/images/counter.png" alt="Image of Counter React.js project" /></a>
+            <a href="https://mkleemjr.github.io/colmar-academy" target="_blank"><img class="img-responsive" src="resources/images/colmar-academy.png" alt="Image of Colmar Academy Final Capstone project" /></a>
+            <h4 class="text-center"><a href="https://mkleemjr.github.io/colmar-academy" target="_blank">Colmar Academy</a></h4>
+            <h5>WEB DEV</h5>
+          </div>
+          <!-- Project 12 -->
+          <div class="col-sm-4">
+            <a href="https://mkleemjr.github.io/counter" target="_blank"><img class="img-responsive"
+                src="resources/images/counter.png" alt="Image of Counter React.js project" /></a>
             <h4 class="text-center"><a href="https://mkleemjr.github.io/counter" target="_blank">Counter</a></h4>
+            <h5>REACT.JS</h5>
+          </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="row">
+          <!-- Project 13 -->
+          <div class="col-sm-4">
+            <a href="https://mkleemjr.github.io/selector/" target="_blank"><img class="img-responsive" src="resources/images/selector.png" alt="Image of the Selector React.js project"/></a>
+            <h4 class="text-center"><a href="https://mkleemjr.github.io/selector/" target="_blank">Selector</a></h4>
+            <h5>REACT.JS</h5>
+          </div>
+          <!-- Project 14 -->
+          <div class="col-sm-4">
+            <a href="https://mkleemjr.github.io/rock-paper-scissors/" target="_blank"><img class="img-responsive"
+                src="resources/images/rock-paper-scissors.png" alt="Image of the Rock-Paper-Scissors React.js project" /></a>
+            <h4 class="text-center"><a href="https://mkleemjr.github.io/rock-paper-scissors/" target="_blank">Rock, Paper, Scissors</a></h4>
+            <h5>REACT.JS</h5>
+          </div>
+          <!-- Project 15 -->
+          <div class="col-sm-4">
+            <a href="https://mkleemjr.github.io/lifecycle/" target="_blank"><img class="img-responsive"
+                src="resources/images/lifecycle.png" alt="Image of the Rock-Paper-Scissors React.js project" /></a>
+            <h4 class="text-center"><a href="https://mkleemjr.github.io/lifecycle/" target="_blank">Lifecycle</a></h4>
             <h5>REACT.JS</h5>
           </div>
         </div>
       </div>
     </section>
     <!-- Contact Section -->
-    <section id="contact">
+    <section>
       <div class="fluid-container">
         <!-- Contact Heading -->
-        <h1 class="text-center">Contact</h1>
+        <h1 class="text-center" id="contact">Contact</h1>
+        <h2 class="text-center sect-title" style="font-style: italic;"><a href="#top">( Back to Top )</a></h2>
 
         <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
         <div class="row">
