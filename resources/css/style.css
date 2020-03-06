@@ -1,53 +1,126 @@
-body {
-  font-family: Georgia;
-  background-color: #FFCA28;
+/* Universal Styles */
 
-}
-
-h1 {
-  background-color: red;
-  font-size: 38px;
-  text-shadow: #FFFF00 1px 1px 1px;
-
-}
-
-h2 {
-  background-color: #FFEE58;
-  font-size: 28px;
-  text-shadow: #69F0AE 1px 1px 1px;
-}
-
-h3 {
-  background-color: #C6FF00;
-  text-shadow: #FF5722 1px 1px 1px;
-  font-size: 22px;
-}
-
-h4 {
-  background-color: #C6FF00;
-  text-shadow: #FF5722 1px 1px 1px;
+html, body {
+  font-family: "Helvetica", sans-serif;
   font-size: 18px;
 }
 
-p {
-  font-family: Verdana;
-  font-size: 22px;
-  font-style: normal;
-}
+/*div, section {
+  border: 1px outset #fffd61;
+}*/
 
 a {
-  color: red;
-  font-size: 23px;
-  font-family: Georgia;
-  text-shadow: #827717 1px 1px 1px;
-}
-
-.folio-list li {
   color: black;
-  font-weight: bold;
-  font-size: 20px;
 }
 
-.codist img {
-  width: 100%;
+h1 {
+  padding: 30px;
+}
+
+/* Navbar Section */
+
+.navbar {
+  margin: 0 auto;
+}
+
+.navbar-nav {
+  background-color: lightblue;
+}
+
+/* Jumbotron Section */
+
+.jumbotron {
+  background-image: url("../images/Deepmind.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffca28;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron h1 {
+  color: #ffca28;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+}
+
+.jumbotron p {
+  display: flex;
+  background-color: #fffd61;
+  color: #0095a8;
+  opacity: 0.8;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 5px;
+  justify-content: center;
+  align-content: center;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  font-family: serif;
+  padding: 0.5rem;
+  margin-bottom: 0;
+}
+
+.jumbotron img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+  height: 50%;
+  border: 3px groove gold;
+  margin: 1.5rem;
+  border-radius: 50px;
+}
+
+.btn {
+  background-color: #c79a00;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+/* Skills Section */
+
+.col-sm-12 {
+  background-color: lightblue;
+
+}
+
+/* Portfolio Section */
+
+/*#portfolio {
+  background-color: lightblue;
+}*/
+
+.col-sm-4 {
+  background-color: #26c6da;
+}
+
+.row img {
+  margin: 20px 0;
+  border: 2px outset gold;
+  border-radius: 5px;
+}
+
+#portfolio a {
+  color: #ffca28;
+  text-shadow: 1px 1px 2px lightslategray;
+  /*background-color: gold;*/
+  font-size: 1.25em;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+
+.contact {
+  background-color: #6ff9ff;
+  padding: 1em;
+}
+
+/* Footer */
+
+footer {
+  background: black;
+  color: lightgray;
+  padding: 0.6em;
 }
